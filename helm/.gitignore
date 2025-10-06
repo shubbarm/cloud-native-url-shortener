@@ -1,5 +1,0 @@
-*.tgz
-charts/
-*.lock
-values.yaml~
-*.bak
