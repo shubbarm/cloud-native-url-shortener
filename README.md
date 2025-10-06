@@ -43,3 +43,31 @@ A fully GitOps-managed, Kubernetes-native URL shortener built for learning, labs
 ## Final note
 
 This project is for testing, labs, and educational purposes only. It is **not production-ready**. Some values are hardcoded for simplicity.
+
+
+## 📸 Screenshots
+
+<details>
+<summary>Click to expand full gallery</summary>
+
+![Screenshot 1](assets/Screenshot%20from%202025-10-06%2012-06-46.png)
+![Screenshot 2](assets/Screenshot%20from%202025-10-06%2012-26-29.png)
+![Screenshot 3](assets/Screenshot%20from%202025-10-06%2012-51-01.png)
+![Screenshot 4](assets/Screenshot%20from%202025-10-06%2014-16-13.png)
+![Screenshot 5](assets/Screenshot%20from%202025-10-06%2014-17-04.png)
+![Screenshot 6](assets/Screenshot%20from%202025-10-06%2014-18-02.png)
+![Screenshot 7](assets/Screenshot%20from%202025-10-06%2014-19-11.png)
+![Screenshot 8](assets/Screenshot%20from%202025-10-06%2014-49-47.png)
+![Screenshot 9](assets/Screenshot%20from%202025-10-06%2014-50-47.png)
+![Screenshot 10](assets/Screenshot%20from%202025-10-06%2014-52-24.png)
+![Screenshot 11](assets/Screenshot%20from%202025-10-06%2015-08-41.png)
+![Screenshot 12](assets/Screenshot%20from%202025-10-06%2015-11-06.png)
+![Screenshot 13](assets/Screenshot%20from%202025-10-06%2016-17-09.png)
+![Screenshot 14](assets/Screenshot%20from%202025-10-06%2016-18-05.png)
+![Screenshot 15](assets/Screenshot%20from%202025-10-06%2018-30-38.png)
+![Screenshot 16](assets/Screenshot%20from%202025-10-06%2018-32-10.png)
+![Screenshot 17](assets/Screenshot%20from%202025-10-06%2018-40-17.png)
+![Screenshot 18](assets/Screenshot%20from%202025-10-06%2019-04-38.png)
+![Screenshot 19](assets/Screenshot%20from%202025-10-06%2019-08-59.png)
+
+</details>
