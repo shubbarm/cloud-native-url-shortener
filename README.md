@@ -45,7 +45,7 @@ A fully GitOps-managed, Kubernetes-native URL shortener built for learning, labs
 This project is for testing, labs, and educational purposes only. It is **not production-ready**. Some values are hardcoded for simplicity.
 
 
-## 📸 Screenshots
+## Screenshots
 
 <details>
 <summary>Click to expand full gallery</summary>
