@@ -1,12 +1,26 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from models import get_db, create_short_url, get_original_url
 
-
 app = FastAPI()
+
+# ✅ CORS middleware must be added AFTER app is created
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],  # Or ["*"] for dev
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 class URLRequest(BaseModel):
     url: str
+
+@app.options("/shorten", include_in_schema=False)
+async def options_shorten(request: Request):
+    return JSONResponse(content={}, status_code=200)
 
 @app.post("/shorten")
 def shorten_url(request: URLRequest):
